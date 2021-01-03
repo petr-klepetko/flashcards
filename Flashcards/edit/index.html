@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Upravit json</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/edit.css">
+    
+</head>
+<body>
+    <div id="topLevelContainer" class="topLevelContainer">
+        <header>
+            <h1 id="h1">Nadpis balíčku otázek</h1>
+        </header>
+        <main>
+            <div class="row">
+                <div class="column">
+                    <p>Otázka: </p>
+                </div>
+                <div class="column">
+                    <textarea id="question" class="text">Otázka</textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <p>Odpověď</p>
+                </div>
+                <div class="column">
+                    <textarea id="answer" class="text">Odpověď</textarea>
+                </div>
+            </div>
+            <div id="saveButton column hide">
+                <button id="save" class="save hide">Uložit</button>
+            </div>
+        </main>
+        <footer>
+            
+            <div id="textContainer" class="textContainer">
+                <p id="back" class="mover">&lt;</p>
+                <p id="cardNumber" class="cardNumber">1/52</p>
+                <p id="forward" class="mover">&gt;</p>
+            </div>
+        </footer>
+    </div>
+    <script src="../js/edit.js"></script>
+</body>
+</html>

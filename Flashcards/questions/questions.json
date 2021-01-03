@@ -1,0 +1,22 @@
+{
+   "name": "Demo otázky",
+
+   "questions": [
+      {
+         "question": "Jak se máš?",
+         "answer": "Mám se dobře"  
+      },
+      {
+         "question": "Jak se jmenuješ?",
+         "answer": "Jmenuju se Petr"  
+      },
+      {
+         "question": "Jak se jmenuje Týna?",
+         "answer": "Jmenuje se Týna"  
+      },
+      {
+         "question": "Jak se má Týna?",
+         "answer": "Týna se má dobře. :)"  
+      }
+   ]
+}

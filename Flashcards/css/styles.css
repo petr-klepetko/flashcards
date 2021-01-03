@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    margin: auto;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+aside {
+    background-color: rgba(117, 117, 117, 0.322);
+    width: 10%;
+    height: 476px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topLevelContainer {
+    background-color: grey;
+    margin: 0px;
+}
+
+.turnCard:hover {
+    background-color: rgba(117, 117, 117, 0.315);
+}
+
+.turnCard:active {
+    background-color: rgba(117, 117, 117, 0.719);
+}
+
+header {
+    background-color: rgba(32, 191, 85);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main {
+    background-color: rgba(251, 251, 255);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.cardSpace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 476px;
+    width: 1026px;
+    background-color: rgba(11, 79, 108);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 450px;
+    width: 1000px;
+    background-color: rgba(1, 186, 239);
+}
+
+.answer {
+    background-color: rgba(32, 191, 85);
+}
+
+.cardText {
+    text-align: center;
+    text-justify: auto;
+    margin: auto 50px;
+    font-size: 40px;
+}
+
+.QorA {
+    font-size: 60px;
+    margin: 10px;
+    text-align: center;
+}
+
+.textContainer {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgba(117, 117, 117);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mover {
+    font-size: 90px;
+    margin: 10px 0px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mover:hover {
+    background-color: rgb(92, 92, 92);
+}
+
+.cardNumber {
+    margin: 10px;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        max-width: 600px;
+    }
+
+    .topLevelContainer {
+        max-height: 100vh;
+        max-width: 100vh;
+    }
+
+    main {
+        max-height: 450px;
+        max-width: 100vh;
+    }
+
+    aside {
+        display: none;
+    }
+
+    h1 {
+
+        font-size: 25px;
+    }
+
+    .cardSpace {
+        max-width: 100vh;
+        max-height: 100vh;
+    }
+
+    .card {
+        max-width: 90vh;
+        max-height: 75vh; 
+    }
+
+    .QorA {
+        font-size: 30px;
+    }
+
+    .cardText {
+        font-size: 20px;
+    }
+}

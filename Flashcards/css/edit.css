@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    margin: auto;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topLevelContainer {
+    margin: 0px;
+}
+
+header {
+    background-color: rgba(32, 191, 85);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+}
+
+textarea {
+    margin: 10px;
+    height: 200px;
+    width: 500px;
+    resize: none;
+}
+
+footer {
+    background-color: rgba(117, 117, 117);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mover {
+    font-size: 90px;
+    margin: 0px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mover:hover {
+    background-color: rgb(92, 92, 92);
+}
+
+.cardNumber {
+    margin: 10px;
+    font-size: 40px;
+}
+
+.textContainer {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.saveButton {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: 70px;
+    width: 150px;
+}
+
+.third {
+    width: 33.33%;
+}
+
+.hide {
+    display: none;
+}
