@@ -2,11 +2,13 @@
 
 $response = array(
     "status" => "",
+    "filename" => "",
 );
 
 if (!empty($_GET)) {
     if (!empty($_GET['filename'])) {
-
+        $response['status'] = "success"; 
+        $response['filename'] = $_GET['filename']; 
     }
     else {
         $response['status'] = "Filename is not specified"; 
