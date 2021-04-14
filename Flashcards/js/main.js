@@ -53,7 +53,7 @@ moveBack.addEventListener('click', () => {
 
 document.addEventListener('keydown', (event) => {
     console.log(`key=${event.key},code=${event.code}`);
-    if(event.code === 'ArrowLeft') {                        //move BACK
+    if (event.code === 'ArrowLeft') {                        //move BACK
         if (currentIndex > 0) {
             currentIndex = currentIndex - 1;
             readTextFile(filePath, (text) => {
@@ -70,7 +70,7 @@ document.addEventListener('keydown', (event) => {
         }
     }
 
-    if(event.code === 'ArrowRight') {                           //move FORWARD
+    if (event.code === 'ArrowRight') {                           //move FORWARD
         readTextFile(filePath, (text) => {
             questions = JSON.parse(text);
 
@@ -139,15 +139,14 @@ turnCard.addEventListener('click', () => {
 });
 
 document.addEventListener('keydown', (event) => {
-    
-    if(event.code === 'Enter' || event.code === 'Space' || event.code === 'ArrowUp' || event.code === 'ArrowDown' )
-    {
+
+    if (event.code === 'Enter' || event.code === 'Space' || event.code === 'ArrowUp' || event.code === 'ArrowDown') {
         if (answerIsShown) {                    //Answer is shown -> we need to show question
             answer.classList.add('hide');       //hide answer
             QorA.innerText = 'Q';               //set header to Q
-    
+
             question.classList.remove('hide');  //display the question
-    
+
             answerIsShown = false;
 
             card.classList.remove('answer');
@@ -156,19 +155,19 @@ document.addEventListener('keydown', (event) => {
         else {
             question.classList.add('hide');     //hide question
             QorA.innerText = 'A';               //set heading to A - answer
-    
+
             answer.classList.remove('hide');    //display the answer
-    
+
             answerIsShown = true;
             card.classList.add('answer');
             //console.log('Zobrazena odpověď. ');
         }
     }
 
-    if(event.code === 'ArrowRight') {
+    if (event.code === 'ArrowRight') {
 
     }
-if(event.code === 'Space' || event.code === 'ArrowUp' || event.code === 'ArrowDown') {
+    if (event.code === 'Space' || event.code === 'ArrowUp' || event.code === 'ArrowDown') {
         event.preventDefault();
     }
 });
@@ -197,17 +196,33 @@ let readTextFile = (file, callback) => {
 // });
 
 const initialize = () => {
-    readTextFile(filePath, (text) => {
-        questions = JSON.parse(text);
-        questionText = questions.questions[0].question;
-        answerText = questions.questions[0].answer;
+    /** Get status info, which includes:
+     *      - path to file WITHOUT the name
+     *      - filename
+     *      - 
+     */
+    readTextFile('./status.json', (status) => {
+        // console.log(status);
+        status = JSON.parse(status);
+        filePath = status['path-to-file'] + status['current-file'];
+        // console.log(status['current-file']);
+        // console.log(status['path-to-file']);
+        // console.log(filePath);
 
-        question.innerText = questionText;
-        answer.innerText = answerText;
+        /** Get questions */
+        readTextFile(filePath, (text) => {
+            questions = JSON.parse(text);
+            questionText = questions.questions[0].question;
+            answerText = questions.questions[0].answer;
 
-        cardNumber.innerText = '1/' + questions.questions.length;
-        h1.innerText = questions.name;
+            question.innerText = questionText;
+            answer.innerText = answerText;
+
+            cardNumber.innerText = '1/' + questions.questions.length;
+            h1.innerText = questions.name;
+        });
     });
+
 };
 
 
