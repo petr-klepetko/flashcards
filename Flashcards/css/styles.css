@@ -44,6 +44,18 @@ header {
     justify-content: center;
 }
 
+.sideBox {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.sideBox:hover {
+    background-color: rgb(64, 184, 104);
+}
+
 main {
     background-color: rgba(251, 251, 255);
     height: 600px;

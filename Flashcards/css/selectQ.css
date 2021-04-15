@@ -17,7 +17,8 @@ main {
     justify-content: center;
     flex-direction: column;
     width: 600px;
-    height: 200px;
+    height: fit-content;
+    padding-top: 20px;
 }
 
 .text {
@@ -42,4 +43,8 @@ main {
 
 .space-before {
     margin-top: 20px;
+}
+
+.questionTale {
+    padding: 10px;
 }

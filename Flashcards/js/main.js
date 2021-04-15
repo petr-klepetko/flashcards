@@ -207,7 +207,7 @@ const initialize = () => {
         filePath = status['path-to-file'] + status['current-file'];
         // console.log(status['current-file']);
         // console.log(status['path-to-file']);
-        // console.log(filePath);
+        console.log(filePath);
 
         /** Get questions */
         readTextFile(filePath, (text) => {
