@@ -47,4 +47,15 @@ main {
 
 .questionTale {
     padding: 10px;
+    background-color: rgb(56, 193, 231);
+    margin-top: 5px;
+}
+
+.questionTale:hover {
+    background-color: rgb(125, 227, 255);
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
 }

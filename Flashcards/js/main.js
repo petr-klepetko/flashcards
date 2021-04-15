@@ -4,6 +4,7 @@ const question = document.querySelector('#question');
 const answer = document.querySelector('#answer');
 const card = document.querySelector('#card');
 const h1 = document.querySelector('#h1');
+const backToSelection = document.querySelector('#backToSelection');
 
 
 let cardNumber = document.querySelector('#cardNumber');
