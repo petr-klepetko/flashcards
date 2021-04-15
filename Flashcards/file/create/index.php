@@ -1,15 +1,19 @@
 <?php
 
+$response = array(
+    "status" => "",
+);
+
 if (!empty($_GET)) {
     if (!empty($_GET['filename'])) {
 
     }
     else {
-        $response->status = "Filename is not specified"; 
+        $response['status'] = "Filename is not specified"; 
     }
 }
 else {
-    $response->status = "There are no arguments";
+    $response['status'] = "There are no arguments";
 }
 $myfile = fopen("testfile.txt", "w");
 
