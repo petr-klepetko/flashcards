@@ -1,0 +1,18 @@
+{
+   "name": "other demo questions",
+
+   "questions": [
+      {
+         "question": "first question",
+         "answer": "first answer"  
+      },
+      {
+         "question": "Jak se jmenuješ?",
+         "answer": "Jmenuju se Petr"  
+      },
+      {
+         "question": "Jak se jmenuje Týna?",
+         "answer": "Jmenuje se Týna"  
+      }
+   ]
+}

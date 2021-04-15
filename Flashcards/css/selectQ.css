@@ -15,10 +15,31 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 600px;
     height: 200px;
 }
 
 .text {
     margin: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space-before {
+    margin-top: 20px;
 }
