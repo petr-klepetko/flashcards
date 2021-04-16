@@ -10,6 +10,7 @@ h1 {
 
 body {
     margin: 0px;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -137,8 +138,6 @@ footer {
     font-size: 40px;
 }
 
-
-
 a, a:hover, a:active {
     text-decoration: none;
     color: inherit;
@@ -150,50 +149,70 @@ a, a:hover, a:active {
     }
 }
 
-@media (max-width: 1030px) {
-    #cardSpace {
-        width: unset;
+
+@media only screen and (max-width: 980px) {
+    body {
+       position: fixed; 
+    }
+    #topLevelContainer {
+        height: 87vh;
     }
 
-    #card {
+    header {
+        height: 10%;
+    }
+
+    .sideBox {
+        width: 25%;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    main {
+        height: 70%;
+    }
+
+    #QorA {
+        font-size: 170px;
+    }
+
+    #question, #answer {
+        font-size: 70px;
+    }
+
+    #cardSpace {
+        height: 100%;
         width: 100%;
     }
-}
 
-@media (max-width: 800px) {
-    header {
-        max-width: 600px;
+    #card {
+        height: 95%;
     }
-    .topLevelContainer {
-        max-height: 100vh;
-        max-width: 100vh;
-    }
-    main {
-        max-height: 450px;
-        max-width: 100vh;
-    }
-    aside {
-        display: none;
-    }
-    h1 {
-        font-size: 25px;
-    }
-    .cardSpace {
-        max-width: 100vh;
-        max-height: 100vh;
-    }
-    .card {
-        max-width: 90vh;
-        max-height: 75vh;
-    }
-    .QorA {
-        font-size: 30px;
-    }
-    .cardText {
-        font-size: 20px;
-    }
+
     footer {
-        height: 300px;
+        height: 20%;
+    }
+    
+    .textContainer {
+        height: 100%;
     }
 
+    .mover, .cardNumber {
+        height: 100%;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+    }
+
+    .mover {
+        font-size: 300px;
+    } 
+
+    .mover:hover {
+        background-color: inherit;
+    }
+
+    .cardNumber {
+        font-size: 200px;
+    }
 }
