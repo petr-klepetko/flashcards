@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-* {
+* {
     box-sizing: border-box;
 }
 
@@ -138,50 +137,63 @@ footer {
     font-size: 40px;
 }
 
-@media only screen and (max-width: 600px) {
-    header {
-        max-width: 600px;
-    }
 
-    .topLevelContainer {
-        max-height: 100vh;
-        max-width: 100vh;
-    }
-
-    main {
-        max-height: 450px;
-        max-width: 100vh;
-    }
-
-    aside {
-        display: none;
-    }
-
-    h1 {
-
-        font-size: 25px;
-    }
-
-    .cardSpace {
-        max-width: 100vh;
-        max-height: 100vh;
-    }
-
-    .card {
-        max-width: 90vh;
-        max-height: 75vh; 
-    }
-
-    .QorA {
-        font-size: 30px;
-    }
-
-    .cardText {
-        font-size: 20px;
-    }
-}
 
 a, a:hover, a:active {
     text-decoration: none;
     color: inherit;
+}
+
+@media (max-width: 1300px) {
+    aside {
+        display: none;
+    }
+}
+
+@media (max-width: 1030px) {
+    #cardSpace {
+        width: unset;
+    }
+
+    #card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        max-width: 600px;
+    }
+    .topLevelContainer {
+        max-height: 100vh;
+        max-width: 100vh;
+    }
+    main {
+        max-height: 450px;
+        max-width: 100vh;
+    }
+    aside {
+        display: none;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .cardSpace {
+        max-width: 100vh;
+        max-height: 100vh;
+    }
+    .card {
+        max-width: 90vh;
+        max-height: 75vh;
+    }
+    .QorA {
+        font-size: 30px;
+    }
+    .cardText {
+        font-size: 20px;
+    }
+    footer {
+        height: 300px;
+    }
+
 }

@@ -139,6 +139,32 @@ turnCard.addEventListener('click', () => {
 
 });
 
+card.addEventListener('click', () => {
+
+    //console.log('Clicknuto. ');
+    if (answerIsShown) {                    //Answer is shown -> we need to show question
+        answer.classList.add('hide');       //hide answer
+        QorA.innerText = 'Q';               //set header to Q
+
+        question.classList.remove('hide');  //display the question
+
+        answerIsShown = false;
+        card.classList.remove('answer');
+        //console.log(answerText);
+    }
+    else {
+        question.classList.add('hide');     //hide question
+        QorA.innerText = 'A';               //set heading to A - answer
+
+        answer.classList.remove('hide');    //display the answer
+        card.classList.add('answer');
+        answerIsShown = true;
+        //console.log('Zobrazena odpověď. ');
+    }
+
+});
+
+
 document.addEventListener('keydown', (event) => {
 
     if (event.code === 'Enter' || event.code === 'Space' || event.code === 'ArrowUp' || event.code === 'ArrowDown') {
