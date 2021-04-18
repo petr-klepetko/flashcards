@@ -163,6 +163,10 @@ a, a:hover, a:active {
         height: 10%;
     }
 
+    h1 {
+        text-align: center;
+    }
+
     .sideBox {
         width: 25%;
         font-size: 40px;
@@ -214,6 +218,6 @@ a, a:hover, a:active {
     }
 
     .cardNumber {
-        font-size: 200px;
+        font-size: 100px;
     }
 }
