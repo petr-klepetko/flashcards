@@ -9,24 +9,24 @@
 
 <body>
     <main>
-        <div class="row center">
+        <div class="row center phoneColumn">
             <p class="text">Vložte soubor s otázkami: </p>
-            <input type="file">
+            <div class="fileInput"><input type="file"></div>
         </div>
         <div class="column space-before">
             <p class="text">Nebo vyberte z již nahraných: </p>
-            <?php 
-                $pathToFile = "./../questions/list.json";
-                $listOfQuestions = json_decode(file_get_contents($pathToFile), true);
+            <?php
+            $pathToFile = "./../questions/list.json";
+            $listOfQuestions = json_decode(file_get_contents($pathToFile), true);
 
-                foreach($listOfQuestions as $key => $value){
-                    echo "<div class=\"center questionTale\">";
-                    $fileName = $listOfQuestions[$key]['name'];
-                    echo "<a href=\"./changeCurrentQuestions.php/?fileName=$fileName\">";
-                    print_r($listOfQuestions[$key]['name']);
-                    echo "</a>";
-                    echo "</div>";
-                }
+            foreach ($listOfQuestions as $key => $value) {
+                echo "<div class=\"center questionTale\">";
+                $fileName = $listOfQuestions[$key]['name'];
+                echo "<a href=\"./changeCurrentQuestions.php/?fileName=$fileName\">";
+                print_r($listOfQuestions[$key]['name']);
+                echo "</a>";
+                echo "</div>";
+            }
 
 
             ?>
