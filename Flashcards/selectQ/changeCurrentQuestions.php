@@ -14,5 +14,5 @@ if(!empty($_GET['fileName'])){
     echo $statusFileRaw;
 
     file_put_contents($pathToFile, $statusFileRaw);
-    header("Location: ./../../practice/");
+    //header("Location: ./../../practice/");
 }
