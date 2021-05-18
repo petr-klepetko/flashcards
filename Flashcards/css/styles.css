@@ -181,7 +181,12 @@ a, a:hover, a:active {
         font-size: 170px;
     }
 
-    #question, #answer {
+    #question {
+        font-size: 70px;
+        overflow: scroll;
+    }
+    
+    #answer {
         font-size: 70px;
         overflow: scroll;
     }
