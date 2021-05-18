@@ -1,0 +1,22 @@
+{
+   "name": "WebApp1",
+
+   "questions": [
+      {
+         "question": "Výhody webových aplikací",
+         "answer": "Použití bez instalace, snadná údržba (je to na serveru), globálí dosah (dostupné z internetu)"  
+      },
+      {
+         "question": "Nevýhody",
+         "answer": "Složitý vývojářský stack - frontend (HTML, CSS, Javascript),\n preprocesory css, transpilátory JS,...;\nbackendové technologie (PHP/Ruby/Python, Java, .NET, Node.js\n protokol HTTP a jeho specifika\nhorší Ux\nmusí být připojení k internetu"  
+      },
+      {
+         "question": "Jak se jmenuje Týna?",
+         "answer": "Jmenuje se Týna"  
+      },
+      {
+         "question": "Jak se má Týna?",
+         "answer": "Týna se má dobře. :)"  
+      }
+   ]
+}
