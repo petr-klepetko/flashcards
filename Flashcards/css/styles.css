@@ -183,6 +183,7 @@ a, a:hover, a:active {
 
     #question, #answer {
         font-size: 70px;
+        overflow: scroll;
     }
 
     #cardSpace {
