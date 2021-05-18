@@ -94,9 +94,9 @@ main {
 
 .cardText {
     text-align: center;
-    text-justify: auto;
     margin: auto 50px;
     font-size: 40px;
+    overflow: scroll;
 }
 
 .QorA {
