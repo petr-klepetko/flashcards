@@ -31,20 +31,56 @@
          "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
       },
       {
-         "question": "Co znamená, že je bezstavový?",
-         "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
+         "question": "Metody",
+         "answer": "GET – získání dat\nPOST – odesílání dat na server, spíš úprava, hlavně formulář\nPUT – Přidání záznamu (většinou)\nDELETE – mazání záznamu"  
       },
       {
-         "question": "Co znamená, že je bezstavový?",
-         "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
+         "question": "Struktura HTTP požadavku",
+         "answer": "Metoda, url, verze http, hlavičky, prázdná řádka, tělo požadavku"  
       },
       {
-         "question": "Co znamená, že je bezstavový?",
-         "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
+         "question": "Struktura odpovědi",
+         "answer": "Verze protokolu, stavový kód, stavové hlášení\nhlavičky\nprázdná řádka\nobsah odpovědi"  
       },
       {
-         "question": "Co znamená, že je bezstavový?",
-         "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
+         "question": "Stavové kódy",
+         "answer": "1xx – informativní\n2xx – úspěch\n3xx – přesměrování\n4xx – chyba klienta\n5xx – chyba serveru"  
+      },
+      {
+         "question": "Metody pro formulář",
+         "answer": "Get a Post\nDá se nastavit ve formuláři"  
+      },
+      {
+         "question": "Formulář v metodě Get je",
+         "answer": "V query stringu, zakódovaný v url za otazníkem (nemůžou tam být mezery), např. chrome to zobrazuje s diakritikou, i když to tak není"  
+      },
+      {
+         "question": "kódování v url",
+         "answer": "znaky se dají do UTF-8, kde každý znak má 2B\nv prohlížeči se zobrazí jako procento a dva znaky, které reprezentují hodnotu obou bytů"  
+      },
+      {
+         "question": "formulář v metodě post",
+         "answer": "data se zase stejně zakódují, ale neposílají se v url, ale v těle požadavku (může to být delší a není to tak dobře vidět"  
+      },
+      {
+         "question": "q",
+         "answer": "a"  
+      },
+      {
+         "question": "q",
+         "answer": "a"  
+      },
+      {
+         "question": "q",
+         "answer": "a"  
+      },
+      {
+         "question": "q",
+         "answer": "a"  
+      },
+      {
+         "question": "q",
+         "answer": "a"  
       }
    ]
 }
