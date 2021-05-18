@@ -11,12 +11,40 @@
          "answer": "Složitý vývojářský stack - frontend (HTML, CSS, Javascript),\n preprocesory css, transpilátory JS,...;\nbackendové technologie (PHP/Ruby/Python, Java, .NET, Node.js\n protokol HTTP a jeho specifika\nhorší Ux\nmusí být připojení k internetu"  
       },
       {
-         "question": "Jak se jmenuje Týna?",
-         "answer": "Jmenuje se Týna"  
+         "question": "Přístupy v architektuře webových aplikací",
+         "answer": "– Aplikace běžící v prohlížeči\n– Server side aplikace\n– kombinace\n– využití REST API"  
       },
       {
-         "question": "Jak se má Týna?",
-         "answer": "Týna se má dobře. :)"  
+         "question": "Zkratka HTTP",
+         "answer": "Hypertext transfer protocol\nProtokol pro přenos objektů libovolného typu, i formulářových dat\nvystaven nad protokolem TCP"  
+      },
+      {
+         "question": "Co znamená, že je bezstavový?",
+         "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
+      },
+      {
+         "question": "Základní model protokolu HTTP",
+         "answer": "1 – navázání spojení\n2 – zaslání požadavku klientem\n3 – Zaslání odpovědi serverem\n4 – uzavření spojení"  
+      },
+      {
+         "question": "Co znamená, že je bezstavový?",
+         "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
+      },
+      {
+         "question": "Co znamená, že je bezstavový?",
+         "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
+      },
+      {
+         "question": "Co znamená, že je bezstavový?",
+         "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
+      },
+      {
+         "question": "Co znamená, že je bezstavový?",
+         "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
+      },
+      {
+         "question": "Co znamená, že je bezstavový?",
+         "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
       }
    ]
 }
