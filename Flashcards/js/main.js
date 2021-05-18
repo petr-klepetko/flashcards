@@ -151,12 +151,15 @@ const initialize = () => {
         // console.log(status['path-to-file']);
         console.log(filePath);
         console.log('initializing');
+        console.log('zmena');
 
         /** Get questions */
         readTextFile(filePath, (text) => {
             questions = JSON.parse(text);
             questionText = questions.questions[0].question;
             answerText = questions.questions[0].answer;
+
+            console.log(text);
 
             question.innerText = questionText;
             answer.innerText = answerText;
