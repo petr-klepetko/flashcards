@@ -2,60 +2,72 @@
    "name": "WebApp4",
    "questions": [
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Proč je důležité šifrovat (https) i statické stránky",
+         "answer": "Kvůli autentizaci dat – ať víme, že se jedná o opravdové informace"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Co je HTTPS",
+         "answer": "HTTP, který je šifrovaný TLS (dříve SSL). Prohlížeče to ukazují 'zámečkem' před url"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Jak udělat HTTPS od prvního požadavku",
+         "answer": "V odpovědi na http požadavek je Location: na verzi https. První požadavek je stále nešifrovaný\nHTST - http strict transport security – předinstalované domény v prohlížečích, které vždy vyžadují https, takže nešifrovaný by byl pouze ten úplně první, pak už https"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Průběh navázání spojení",
+         "answer": "TLS handshake – domlouvání šifrovacího algoritmu\nserver odešle digitálně podepsaný certifikát – informace o serveru a veřejný klíč plus certifikační autorita\nDíky certifikátu se certifikační autorita zaručuje za správnost serveru (ten fyzicky kontrolují)\nprincip je důvěra v ty autority"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Autentizace",
+         "answer": "Jsme ten, kdo tvrdíme, že jsme?"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Autorizace",
+         "answer": "Máme právo na to, udělat to, co chceme? (nejde o to, kdo jsme, ale jestli máme na něco právo)"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "HTTP autentizace",
+         "answer": "Součást HTTP protokolu – při každém požadavku je potřeba www autentifikace - \npoprvé vyskočí dialogové okno pro uživatelské jméno a heslo, poté si to už pamatuje, aby to nemusel žádat pořád\n– problém je, že se nejde odhlásit, jedině úplným vypnutím prohlížeče\n– hesla nejsou zakódovaná"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Vlastní autentizace princip",
+         "answer": "Server má vlastní implementaci autentizace, jak jí naprogramuje vývojář\nMechanismus spočívá v tom, že se vytvoří záznam o uživateli a session ID, kde je napsáno, jestli je uživatel přihlášený, nebo ne. Po přihlášení se na určitou dobu nastaví status na přihlášený a dovoluje přístup do systému, potom se to vypne"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Klientské certifikáty princip",
+         "answer": "Mechanismus ssl/tls, i uživatel se prokazuje certifikátem"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Web authentication princip",
+         "answer": "nový standard pro autentizaci na webu\ndefinování API pro generování páry privátní a veřejný klíč\nveřejný klíč se odešle na server a pomocí něj se autentizuje tak, že podepíše nějaký kód od serveru a on pozná, že to jsme my\npak se autentizuje jen klíči, bez zadávání hesla"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Federalizované autentizační služby",
+         "answer": "Decentralizovaný mechanismus pro jednotlivé přihlašování – Single sign on\npřihlašujeme se k nějakému identity providerovi, který nás ověří, dá nám přístupní token a s ním se přihlašujeme k ostatním aplikacím"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "protokol OAuth2",
+         "answer": "mechanismus pro autentizaci uživatelů v rámci aplikace"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "OPenID connect",
+         "answer": "standardizovaný profil OAuth 2.0\npodpora vrstvy nad OAuth 2.0"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Ukládání hesel",
+         "answer": "hashovací funkce se solí (funkce, která se špatně inverzuje - zjičťuje vstup)"
+      },
+      {
+         "question": "minimální hashovací funkce",
+         "answer": "SHA256"
+      },
+      {
+         "question": "Proč sůl?",
+         "answer": "Hash samotného hesla může být k nalezení, jakmile tam přidáme relativně náhodnou část, tak nejde udělat slovníkový útok"
+      },
+      {
+         "question": "Co dělá správce hesel",
+         "answer": "zajištění silných hesel, plus je začifrované ukládá, takže si je nemusíme pamatovat a zárověň nejdou ukrást"
       }
    ]
 }
