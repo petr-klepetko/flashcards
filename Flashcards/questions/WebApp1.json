@@ -27,10 +27,6 @@
          "answer": "1 – navázání spojení\n2 – zaslání požadavku klientem\n3 – Zaslání odpovědi serverem\n4 – uzavření spojení"  
       },
       {
-         "question": "Co znamená, že je bezstavový?",
-         "answer": "Prohlížeč pošle požadavek a dostane odpověď – nepamatuje si historii, jednotlivé požadavky jsou oddělené"  
-      },
-      {
          "question": "Metody",
          "answer": "GET – získání dat\nPOST – odesílání dat na server, spíš úprava, hlavně formulář\nPUT – Přidání záznamu (většinou)\nDELETE – mazání záznamu"  
       },
@@ -61,6 +57,42 @@
       {
          "question": "formulář v metodě post",
          "answer": "data se zase stejně zakódují, ale neposílají se v url, ale v těle požadavku (může to být delší a není to tak dobře vidět"  
+      },
+      {
+         "question": "Na co by se měla používat metoda GET (data v query stringu)",
+         "answer": "Pouze, když získáváme data, ne když něco měníme nebo vytváříme\njde to ručně přepsat\ndotazy jsou vidět"  
+      },
+      {
+         "question": "Soubory přes HTTP",
+         "answer": "Multipart-form-data, každý soubor nebo pole se odešle zakódovaný jako vlastní příloha"  
+      },
+      {
+         "question": "Povinnost hlaviček",
+         "answer": "Některé jsou, některé ne"  
+      },
+      {
+         "question": "Jaké jsou důležité hlavičky podle pana Koska",
+         "answer": "Date, Content-type, Host, Location"  
+      },
+      {
+         "question": "Date",
+         "answer": "Datum a čas požadavku"  
+      },
+      {
+         "question": "Content-type",
+         "answer": "Formát odesílaných dat"  
+      },
+      {
+         "question": "Host",
+         "answer": "Název serveru, se kterým se komunikuje\nHistoricky se dříve psala jen adresa na serveru, ale na jedné IP adrese může být více domén, resp. virtuálních serverů, takže aby se poznalo, který server chcemme, používáme hlavičku HOST"  
+      },
+      {
+         "question": "Location",
+         "answer": "Obsah, který je v této hlavičce, obsahuje adresu, na kterou budeme přesměrováni\n(adresa, kam máme jít)"  
+      },
+      {
+         "question": "Proč je někdy adresa s www na začátku a někdy ne?",
+         "answer": "Jedna z nich je primátní, na tu druhou se odkazuje pomocí hlavičky Location"  
       },
       {
          "question": "q",
