@@ -143,20 +143,32 @@
          "answer": "Je to session cookie, takže jede do zavření prohlížeče"  
       },
       {
-         "question": "q",
-         "answer": "a"  
+         "question": "Co znamená third party cookies?",
+         "answer": "Cookies, které pochází ze serveru, který jen SPOLUPRACUJE s webem, na kterém jsme, ale je to jen reklamní web, který s ním spolupracuje. To nepotřebujeme a můžeme to zakázat"  
+      },
+      {
+         "question": "Co jsou session proměnné?",
+         "answer": "Server si udržuje databázi o uživatelech, kde jsou označeni jako Session Id (SID)\nPoužívá se hlavně cookies"
+      },
+      {
+         "question": "Na co je session_start()",
+         "answer": "musí se zavolat na začátku, zapíná to session"  
+      },
+      {
+         "question": "Jak se zapisují v php session proměnné?",
+         "answer": "$_SESSION['nazev'] = hodnota;"
+      },
+      {
+         "question": "kde se ukládá session id",
+         "answer": "Cookie, nebo url, oboje se dělá automaticky, pokud to nevypneme v htaccess\nDalší možnost je Web storage - úložiště dat na klientovi"
+      },
+      {
+         "question": "Dělení web storage",
+         "answer": "Local storage a session storage\ndělení podle času, jak dlouho vydrží"
       },
       {
          "question": "q",
-         "answer": "a"  
-      },
-      {
-         "question": "q",
-         "answer": "a"  
-      },
-      {
-         "question": "q",
-         "answer": "a"  
+         "answer": "a"
       }
    ]
 }
