@@ -1,0 +1,53 @@
+{
+   "name": "WebApp1",
+   "questions": [
+      {
+         "question": "Co je SSI?",
+         "answer": "Server-side-includes\nPrvní náznak dynamického generování stránek.\nZnačky, kam se dosazují (jako do proměnných) nějaké hodnoty."
+      },
+      {
+         "question": "SSI příkazy",
+         "answer": "#include – přidat obsah odjinud, např. horní menu, aby se nemuselo opakovat\n#exec – spuštění programu\nfsize – zjištění velikosti souboru"
+      },
+      {
+         "question": "CGI skripty",
+         "answer": "Common gateway interface, přes které spouští skripty s daty z požadavku, na základě čeho se buď zobrazila stránka, nebo výstup API"
+      },
+      {
+         "question": "Proč CGI?",
+         "answer": "Dříve se programovalo v jakémkoliv jazyce, takže bylo potřeba rozhraní, které bude fungovat pro všechny."
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      }
+   ]
+}
