@@ -1,5 +1,5 @@
 {
-   "name": "WebApp1",
+   "name": "WebApp3",
    "questions": [
       {
          "question": "Co je třívrstvá architektura aplikací",
@@ -30,52 +30,56 @@
          "answer": "Update tabulka set sloupec = hodnota where podmínka"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Připojení k databázi přes PDO",
+         "answer": "objekt PDO se musí vytvořit přes konstruktor objektu pdo\n$pdoObjekt->query('dotaz');"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Funkce htmlspecialchars()",
+         "answer": "Escapují se html znaky, aby se nenarušil kód"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Jiné možnosti přístupu k datům",
+         "answer": "ORM – object relational mapping\n– aplikace nepracuje přímo s databází, ale používá se mezivrstva zajišťující transparentní mapování a perzistenci objektů v paměti na data v db\n– pracuje se s objekty, ne s databází"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "GraphQL",
+         "answer": "dotazovací jazyk pro API\nserver vrací data v podobě, kterou si určíme v dotazu"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Alternativní úložiště dat",
+         "answer": "NOSQL databáze – jednoduché klíč => hodnota (například json)"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "NOSQL databáze",
+         "answer": "Jednoduchá úložiště klíč->hodnota\nmůže být třeba json\nJe potřeba dělat ručně dotazy, není nad tím dotazovací jazyk nebo propojení tabulek\njsou jednoduché, což může umožnit lepší škálovatelnost\nPoužívají to například cloudová úložiště"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "XML databáze",
+         "answer": "Strom s elementy\nrelační datový model je umělý, může být bližší realitě, lépe se nad tím pracuje"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "RDF databáze",
+         "answer": "sémantický web - databáze ukládá logické výroky, vlastní dotazovací jazyk SPARQL, nevyspělá technologie pro internetové měřítko"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Zvyšování výkonu webových databázových aplikací",
+         "answer": "Většina bottlenecků je v databázi – špatně napsané dotazy, není perzistentní spojení (chce to mít stálé spojení, připojování trvá dlouho), využívá se i když to není potřeba"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Jak omezit počet SQL dotazů",
+         "answer": "Špatný přístup by byl například to, že na jedné stránce by byly 4 dotazy na načtení 4 komponent\nDotazy by šlo posílat minimálně, například kdyby nějaké změny chodily denně, tak stačí jeden dotaz denně a uložit hodnoty jinam."
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Problémy při souběžném editování záznamu více uživateli",
+         "answer": "nejde použít zamkání záznamů, protože prohlížeč se odpojuje po každém požadavku"
       },
       {
-         "question": "q",
-         "answer": "a"
+         "question": "Pesimistický způsob",
+         "answer": "Kdo první začne editovat, tomu se zamkne záznam, když to zkusí někdo znovu, tak ho to vůbec nepustí dovnitř. \nJe potřeba kontrolovat i čas, aby bylo vidět, že se na to někdo vykašlal, nastaví se tam tedy nějaká doba, po které se ten jeho zámek zruší a je zase možné editovat\nPři editaci se musí kontrolovat, jestli nám to už nevypršelo a nezamknul si to někdo jiný"
+      },
+      {
+         "question": "Optimistický způsob",
+         "answer": "Uživatel edituje, mezitím se uloží stav, ve kterém ho on našel. Když v průběhu toho přijde někdo další, také se mu uloží aktuální stav záznamu, udělá změnu a když kdokoliv z nich ukládá, tak se to stane pouze, pokud aktuální stav odpovídá tomu, který si uživatel nacachoval (tomu druhému se to nepovede)"
       }
    ]
-   }
+}
