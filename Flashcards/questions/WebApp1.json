@@ -123,8 +123,24 @@
          "answer": "Když máme odkaz, který mění stav backendu, tak se nesmí tato stránka uložit do historie, aby se neodeslala znovu.\nHlavičky Location neukládají, takže super, to by mělo být na konci toho skriptu"
       },
       {
-         "question": "q",
-         "answer": "a"  
+         "question": "V čem spočívá ukládání stavových informací v url",
+         "answer": "všechno se ukládá do url, všechny odkazy na stránce musí v každém kroce obsahovat aktuální stavové informace, aby se držely v url\nVšechny informace jsou vidět, je to pracné"  
+      },
+      {
+         "question": "Cookies",
+         "answer": "Textové soubory, které jsou ulžené v prohlížeči a drží stavové informace\nNastavují se skriptem\nPři dalším požadavku odešle všechny své cookies, tím ho jde poznaz"  
+      },
+      {
+         "question": "Druhy cookies",
+         "answer": "Session – smažou se po zavření\nCookie na určitý čas"  
+      },
+      {
+         "question": "Jak se v php zapisuje cookie",
+         "answer": "SetCookie('nazev_cookie', 'hodnota_cookie', 'unixový čas, kdy přestane být platná'); "  
+      },
+      {
+         "question": "Co se stane, když nezadáme čas?",
+         "answer": "Je to session cookie, takže jede do zavření prohlížeče"  
       },
       {
          "question": "q",
