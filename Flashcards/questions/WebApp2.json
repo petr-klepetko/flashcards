@@ -42,8 +42,65 @@
          "answer": "Serverové API, binární rozhraní pro zkompilovaný kód. Ty běží v rámci web serveru. Podoba je DLL knihovna"
       },
       {
-         "question": "q",
+         "question": "Problémy SAPI",
+         "answer": "Těžký vývoj, nutnost restartu serveru pro jakoukoliv změnu"
+      }
+      ,
+      {
+         "question": "ASP",
+         "answer": "Píše se struktura webu a do toho se dají nějaké příkazy. \nTy se provedou na serveru a odešle se až výsledek"
+      },
+      {
+         "question": "Podoba ASP v kódu",
+         "answer": "<% kód %> a kolem toho html"
+      },
+      {
+         "question": "Proč uspělo PHP",
+         "answer": "– Do html se vkládají jednoduché příkazy\nPodpora hodně operačních systémů (linux nebyl použitelný na pc)\n– speciálně navržený pro webové aplikace"
+      },
+      {
+         "question": "Použití Java pro webové aplikace",
+         "answer": "Java serverlety – kód běží ve virtuálním stroje javy\nServerletový kontejner se serverlety"
+      },
+      {
+         "question": "Serverlet",
+         "answer": "Třída, kterou si kontejner zavede do svého kódu, pokud je potřeba a zpracuje požadavek na server"
+      },
+      {
+         "question": "Java server pages",
+         "answer": "Podobné ASP a php, hlavně html a do toho občas kód\nBěželo to automaticky, jednoduché pro vývojáře (kompilace do bytekódu se dělá sama přes JVM"
+      },
+      {
+         "question": "Obsluha jsp",
+         "answer": "<% kód %> a vedle toho html"
+      },
+      {
+         "question": ".NET",
+         "answer": "'Java od Microsoftu', je tam nadstavba pro webové aplikace\nASP.NET\nFunguje to jako klientská aplikace"
+      },
+      {
+         "question": "Přístupy k návrhu webových aplikací",
          "answer": "a"
+      },
+      {
+         "question": "Co je špagetový kód",
+         "answer": "Jsou tam náhodně kusy kódu, chvíli html, chvíli php... střídá se to"
+      },
+      {
+         "question": "Co je MVC",
+         "answer": "Model – objekt s třídama a metodama\nView – šablona bez aplikační logiky, která se naplní daty\nController – reaguje na interakci s uživatelem."
+      },
+      {
+         "question": "Nevýhody MVC",
+         "answer": "Psaní jde pomalu, je tam potřeba udělat spoustu propojovacího kódu"
+      },
+      {
+         "question": "Komponentové frameworky",
+         "answer": "Aplikace se skládá z vizuálních komponent, které generovaly html kód\nVývojář je odstíněn od samotných technologií (html, css)"
+      },
+      {
+         "question": "Moderní frameworky",
+         "answer": "Založeno na MVC, ale je tam hodně věcí hotových, aby to uživatel právě nemusel moc propojovat sám a zdržovat se"
       }
    ]
-}
+   }

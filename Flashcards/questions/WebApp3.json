@@ -1,0 +1,81 @@
+{
+   "name": "WebApp1",
+   "questions": [
+      {
+         "question": "Co je třívrstvá architektura aplikací",
+         "answer": "Prezentační vrstva – UI, možnost interakce uživatele s aplikací\nAplikační vrstva – zpracovávání dat\nDatová vrstva – databáze"
+      },
+      {
+         "question": "Jak moc pevná je ta struktura?",
+         "answer": "Prezentační vrstva může sahat do aplikační logiky, např. renderování stránek v php, aplikační logika zase může běžet i v js, tedy v prohlížeči. Stejně tak může být i aplikační logika v databázi. Co se týká úložiště, to může být i v prohlížeči jako web storage."
+      },
+      {
+         "question": "Co je SQL",
+         "answer": "Standardizovaný jazyk pro komunikaci s většinou db systémů"
+      },
+      {
+         "question": "Syntaxe SELECTu",
+         "answer": "Select sloupce FROM tabulka where podmínka;\nJe možné používat placeholdery jako hvězdičku"
+      },
+      {
+         "question": "Syntaxe INSERT",
+         "answer": "insert into tabulka values ('hodnota', cislo, 'hodnota', ...)"
+      },
+      {
+         "question": "Syntaxe DELETE",
+         "answer": "delete from tabulka where podmínka"
+      },
+      {
+         "question": "Syntaxe Update",
+         "answer": "Update tabulka set sloupec = hodnota where podmínka"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      }
+   ]
+   }
