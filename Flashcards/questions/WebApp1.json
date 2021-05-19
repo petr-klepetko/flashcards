@@ -95,6 +95,34 @@
          "answer": "Jedna z nich je primátní, na tu druhou se odkazuje pomocí hlavičky Location"  
       },
       {
+         "question": "hlavičky na cachování",
+         "answer": "cache-controll, expires, If-modified-since, If-none-match, Last-modified"
+      },
+      {
+         "question": "Hlavičky na domlouvání obsahu",
+         "answer": "Accept – typy dat podporované klientem\nAccept-charset – podporované kódování\nAccept-language – podporované jazyky\nAllow – seznam metod, kterými je možné komunikovat"  
+      },
+      {
+         "question": "Hlavičky pro identifikační údaje",
+         "answer": "User-agent – co je to za prohlížeš\nServer – identifikace serveru\nReferer – url serveru, odkud bylo získáno url pro tento požadavek (odkud přišli\n"
+      },
+      {
+         "question": "Jak se v PHP čtou hlavičky",
+         "answer": "$_SERVER['NAZEV_HLAVICKY']"  
+      },
+      {
+         "question": "Jak se v PHP nastavují hlavičky?",
+         "answer": "Header('název-hlavičky: hodnota');"  
+      },
+      {
+         "question": "Jak zakázat cachování?",
+         "answer": "Header('Cache-controll: no-cache, no-store, must-revalidate');\nHeader('Expires: 0');"  
+      },
+      {
+         "question": "Jak a proč přeseměrovávat?",
+         "answer": "Když máme odkaz, který mění stav backendu, tak se nesmí tato stránka uložit do historie, aby se neodeslala znovu.\nHlavičky Location neukládají, takže super, to by mělo být na konci toho skriptu"
+      },
+      {
          "question": "q",
          "answer": "a"  
       },
