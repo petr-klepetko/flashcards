@@ -26,23 +26,60 @@
          "answer": "V přednášce bylo 7 při použití minifikace i komprimace"
       },
       {
-         "question": "q",
-         "answer": "a"
-      },{
-         "question": "q",
-         "answer": "a"
-      },{
-         "question": "q",
-         "answer": "a"
-      },{
-         "question": "q",
-         "answer": "a"
-      },{
-         "question": "q",
-         "answer": "a"
-      },{
-         "question": "q",
-         "answer": "a"
+         "question": "Optimalizace obrázku",
+         "answer": "vhodný formát, co jde tak nahradit css efekty"
+      },
+      {
+         "question": "Jak jde snížit počet požadavků",
+         "answer": "Je lepší dávat vše do jednoho velkého souboru"
+      },
+      {
+         "question": "Co jsou obrázkové sprity?",
+         "answer": "Jeden velký obrázek, který obsahuje hodně např. ikon nebo menších obrázků\n– Z toho velkého se vždy vyřízne ta ikona, která je potřeba\nProč? stáhne se jen jeden soubor, bude jen jeden požadavek"
+      },
+      {
+         "question": "zakódování obrázků do html",
+         "answer": "data: zakódovaný obrázek, nemusí se to teda načítat, ale je to tam rovnou"
+      },
+      {
+         "question": "Načítání objektů z více domén najednou",
+         "answer": "Prohlížeče mají limit na dotazy na jednu doménu, tak to jde tahat z více"
+      },
+      {
+         "question": "Statické objekty ve web storage",
+         "answer": "Ušetří požadavky"
+      },
+      {
+         "question": "prefetch je",
+         "answer": "Předpokládá se, co by uživatel mohl příště udělat, a rovnou stáhnout potřebné věci a připravit je pro zobrazení"
+      },
+      {
+         "question": "HTTP/2",
+         "answer": "Odstraňuje zmiňované problémy a o hodně věcí se stará sám\nProtokol je binární místo textového"
+      },
+      {
+         "question": "multiplexing",
+         "answer": "Po jednom TCP spojení se paralelně a asynchronně přenáší více objektů"
+      },
+      {
+         "question": "server push",
+         "answer": "Odesílání dat dříve, než si je prohlížeč vyžádá, na základě odkazů na ně."
+      },
+      {
+         "question": "Základní pravidla pro rychlou aplikaci",
+         "answer": "Nejjednodušší možný html, css a js kód\n– odkazy na css na začátku stránky (pro další vykreslování je potřeba mít k dispozici DOM a CSSOM\n– Dokud se nestáhne css, nemůže se začít s vykreslováním stránky\n– js načítat až na konci stránky (dokud se neprovede js, nenačte ten zbytek stránky), nejlepší je načítat asynchronně"
+      },
+      {
+         "question": "Javascript event loop",
+         "answer": "js události se ukládají do fronty, během obsluhy se nedá dělat nic jiného – proto se to zasekává\n– proto je asynchronnost, aby to nezamrzlo"
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
       }
    ]
 }
