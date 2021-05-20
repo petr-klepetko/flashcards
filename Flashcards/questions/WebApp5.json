@@ -1,0 +1,48 @@
+{
+   "name": "WebApp4",
+   "questions": [
+      {
+         "question": "Jak dlouhá je přijatelná reakce serveru?",
+         "answer": "Do 1 sekundy"
+      },
+      {
+         "question": "Limit, kdy uživatel odchází",
+         "answer": "10 vteřin, plus cokoliv více než 1 vteřina vede k tomu, že uživatel začne myslet na něco jiného"
+      },
+      {
+         "question": "Možnost zmenšení obsahu přenášených dat",
+         "answer": "Nepřenášet věci, dokud to není nutné – lazy loading obrázků do karuselu (nejsou potřeba všechny najednou)\nMinifikace kódu\nkomprimace dat\nkomprimace svg obrázků, optimalizované obrázky"
+      },
+      {
+         "question": "Minifikace dat",
+         "answer": "HTML, CSS, JS\nexistují na to různé nástroje\nCSS – vyhození komentářů, zrušení mezer a konců řádků – moc nepomůže\njs – přejmenuje proměnné na jednoznakové, zase zruší mezery atd., je to výraznější"
+      },
+      {
+         "question": "Komprimace dat",
+         "answer": "například metoda DEFLATE\nproces zvýší nároky na server, ale po síti poběží méně dat"
+      },
+      {
+         "question": "Cca kolikrát se zmenší objem dat?",
+         "answer": "V přednášce bylo 7 při použití minifikace i komprimace"
+      },
+      {
+         "question": "q",
+         "answer": "a"
+      },{
+         "question": "q",
+         "answer": "a"
+      },{
+         "question": "q",
+         "answer": "a"
+      },{
+         "question": "q",
+         "answer": "a"
+      },{
+         "question": "q",
+         "answer": "a"
+      },{
+         "question": "q",
+         "answer": "a"
+      }
+   ]
+}

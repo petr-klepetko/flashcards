@@ -165,10 +165,6 @@
       {
          "question": "Dělení web storage",
          "answer": "Local storage a session storage\ndělení podle času, jak dlouho vydrží"
-      },
-      {
-         "question": "q",
-         "answer": "a"
       }
    ]
 }
