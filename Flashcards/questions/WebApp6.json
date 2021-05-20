@@ -1,0 +1,53 @@
+{
+   "name": "WebApp4",
+   "questions": [
+      {
+         "question": "2 věci potřebné pro nasazení webové aplikace",
+         "answer": "Hosting a doména"
+      },
+      {
+         "question": "Pravidla pro domény",
+         "answer": "– vybrat vhodnou TLD (top level domain, cz, com...)\n– radši si zaregistrovat všechny toplevel domény, ať nám to nikdo neukradne"
+      },
+      {
+         "question": "Co je hosting",
+         "answer": "Místo, kde běží server, db a jsou tam naše soubory a všechny komponenty obecně pro webovou aplikaci"
+      },
+      {
+         "question": "Sdílený hosting",
+         "answer": "Na jednom počítači je mnoho domén\n– chyba nebo zátěž jedné z domén ovlivní i ostatní\n– hodně levné, nedá se tam dát moc dat"
+      },
+      {
+         "question": "VPS",
+         "answer": "Virtual private server, každý server má alokované zdroje pouze pro sebe (část výkonu procesoru, část ram...)\nServery se navzájem neovlivňují, vlastně je každý na svém OS\n– trochu dražší než sdílený hosting"
+      },
+      {
+         "question": "Dedikovaný server",
+         "answer": "aplikace má svůj fyzický server\n– hlavně pokud nestačí výkon VPS"
+      },
+      {
+         "question": "Cloud hosting",
+         "answer": "Něco jako VPS, ale nad ní je vrstva, která umožňuje vytvořit další VPS pro rozložení celé zátěže, pokud ten hlavní to nestíhá\nHlavně pro ty případy, kdy je velký výkyv v potřebném výkonu (celý rok nic, jednou za rok buuuum atd.)"
+      },
+      {
+         "question": "Content delivery network",
+         "answer": "síť serverů rozmístěna po celém světě\n– statické zdroje jsou odesílány z nejbližšího zdroje, kvůli rychlosti"
+      },
+      {
+         "question": "Jak nasadit a aktualizovat aplikaci",
+         "answer": "Jednoduše stačí přes sftp/scp atd zkopírovat\nprofesionální je pak CI (continuous integration) nebo CD "
+      },
+      {
+         "question": "Continuous integration",
+         "answer": "Změny pošleme např. do gitu, tam se automaticky provedou unit testy na testovacím serveru, potom se automaticky nahrají nové kódy na server"
+      },
+      {
+         "question": "Na co dávat pozor při nasazení aplikací",
+         "answer": "Zpětná kompatibilita nějakých API nebo čehokoliv\nRadši vypnout na chvíli celou stránku, nahrát nové verze a potom zase zapnout, aby do nové nechodily požadavky ze starého"
+      },
+      {
+         "question": "",
+         "answer": ""
+      }
+   ]
+}

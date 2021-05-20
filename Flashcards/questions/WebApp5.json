@@ -71,11 +71,11 @@
       },
       {
          "question": "Javascript event loop",
-         "answer": "js události se ukládají do fronty, během obsluhy se nedá dělat nic jiného – proto se to zasekává\n– proto je asynchronnost, aby to nezamrzlo"
+         "answer": "js události se ukládají do fronty, během obsluhy se nedá dělat nic jiného – proto se to zasekává\n– proto je asynchronnost, aby to nezamrzlo\njiné řešení je rozdělit kód na více částí, které se provedou rychle, a potom počkají"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "Úzké hrdlo",
+         "answer": "Místo, které trvá nejdéle a na kterém záleží rychlost celé aplikace (nejslabší článek řetězu)\n– často je to db, takže co nejméně požadavků, data uložit do web storage nebo do jiného úložiště"
       },
       {
          "question": "",
