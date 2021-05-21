@@ -1,6 +1,6 @@
 <?php 
 
-header('Cache-controll: no-cache, no-store, must-revalidate');
+//header('Cache-controll: no-cache, no-store, must-revalidate');
 //header('Expires: 0');
 
 ?>
