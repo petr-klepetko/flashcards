@@ -1,3 +1,10 @@
+<?php 
+
+header('Cache-controll: no-cache, no-store, must-revalidate');
+header('Expires: 0');
+
+?>
+
 <!DOCTYPE html>
 <html>
 
