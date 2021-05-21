@@ -1,0 +1,41 @@
+{
+   "name": "WebApp6",
+   "questions": [
+      {
+         "question": "Co je zkratka REST API",
+         "answer": "RE – Representational\nS – State\nT - Transfer\nA – Application\nP – Programming\nI – Interface"
+      },
+      {
+         "question": "Co je REST API",
+         "answer": "API je obecně definované rozhraní pro komunikaci s programem, například pro získání nebo odeslání dat, či spuštění funkce.\nREST znamená, že se ta data přenášejí nějakou zadanou cestou, což může být například JSON s určitou strukturou, nebo XML...\nMůže to být použito buď pro automatizace, kdy skript ovládá aplikaci bez uživatelské interakce na frontendu, nebo jako způsob architektury, kdy API pouze vrací strukturovaná data, která se na vlastním frontendu zobrazují pomocí např. js."
+      },
+      {
+         "question": "Co je CDN",
+         "answer": "Content delivery network, princip, kdy je web nutné zobrazovat lidem na celém světě, a tak se vytvoří úložiště na různých místech, přičemž při požadavku od uživatele se minimálně statické soubory odešlou z nejbližšího místa, aby tam byly brzo."
+      },
+      {
+         "question": "Co je CGI",
+         "answer": "Common gateway interface\n– Způsob vývoje dynamických webových stránek. Jedná se o rozhraní, které požadavek předalo skriptu v libovolném programovacím jazyku, ten vstup zpracoval a v rámci svého standardního výstupu vygeneroval HTML stránku. Náročné na zdroje, protože skript se musel vždy načíst do paměti a poté smazat. Nahrazen FCGI, který tento problém neměl, ale ten se neuchytil"
+      },
+      {
+         "question": "Jakými způsoby lze řešit víceuživatelský přístup k souborům",
+         "answer": "Optimistický způsob (kdo první uloží, ten dřív mele), pesimistický způsob (kdo první otevře, ten jako jediný mele, další to nepustí, protože to má zamčené)"
+      },
+      {
+         "question": "Vysvětlete pojem ORM",
+         "answer": "Object relation model – přístup k databázi, kdy se na databázi namapuje objektový model, se kterým se v kódu pracuje namísto s databází. Urychluje práci, protože zajišťuje komunikaci s db."
+      },
+      {
+         "question": "Vysvětlete pojem COOKIE",
+         "answer": "Cookie je textový soubor uložený na počítači klienta, který je získán z webové stránky a obsahuje typicky stavové informace o session."
+      },
+      {
+         "question": "Co je session a kde se použije?",
+         "answer": "Session - sezení, relace, je obecně označení pro jedno konkrétní spojení se serverem. V http protokolu je to problém, protože je bezstavový, takže se informace o session / stavové informace musí nějak udržovat růčo => buď v cookie (nákladné na odesílání, v url (taky nákladné na odeslání, omezené délkou a hlavně to každý vidí), nebo na serveru, který si to drží sám a info zpřístupní podle toho, jaké má uživatel session ID, což jako jediné posílá"
+      },
+      {
+         "question": "Příklady, jak urychlit načítání webu",
+         "answer": "– co nejvíce omezit požadavky na db (dělat jen nutné, informace si někde uložit a jen aktualizovat)\n– udržovat perzistentní spojení s databází\n– Nepřenášet vše najednou, ale až to bude potřeba (např. nepřenášet celou galerii, ale získat obrázky až se k nim dojde)\nminifikovat, komprimovat a optimalizovat data, včetně obrázků a jejich formátů\nmísto obrázků zkusit použít css tríčky\nChtít co nejméně požadavků – používat sprity s ikonami (jeden obrázek, ze kterého se 'vyřízne' potřebná ikona, bude to jeden požadavek místo milionu, css a js dávat do velkých souborů, místo do hodně souborů\nCss na začátek souboru, JS na konec, to ideálně asynchronně nebo to rozdělit na hodně malých akcí, mezi kterými jsou pauzy, aby se nezasekl web"
+      }
+   ]
+}
