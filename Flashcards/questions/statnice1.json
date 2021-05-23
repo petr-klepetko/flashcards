@@ -4,18 +4,18 @@
    "questions": [
       {
          "question": "Co může být studie",
-         "answer": "Odborná písemná práce, krátký článek, odborná pojednání, sbornák studií"  
+         "answer": "– Odborná písemná práce, \n– krátký článek, \n– odborná pojednání, \n– sborník studií"  
       },
       {
-         "question": "Vědecké zkoumání je činnost založená na",
+         "question": "Vědecké zkoumání je činnost založená na (činnosti)",
          "answer": "získávání a ověřování faktů, získávání dat, ověřování experimentů"  
       },
       {
-         "question": "Při vědeckém zkoumání je snaha o",
+         "question": "Při vědeckém zkoumání je snaha o (pravidla, která se musí dodržovat, ve smyslu obsahu)",
          "answer": "Systematičnost a logičnost"  
       },
       {
-         "question": "Jaká pravidla se musí dodržovat při prezentaci",
+         "question": "Jaká pravidla se musí dodržovat při prezentaci studie? (ve smyslu vzhledu)",
          "answer": "Formální úprava, jazyková norma, struktura"  
       },
       {
@@ -23,8 +23,44 @@
          "answer": "Znalostí, poznatků a vědomostí"  
       },
       {
-         "question": "Získávání nových znalostí  prob",
-         "answer": "Znalostí, poznatků a vědomostí"  
+         "question": "Jaký 'způsob myšlení' se má při studiích používat?",
+         "answer": "– systematické\n– kritické"  
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
       }
 
 
