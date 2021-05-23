@@ -31,20 +31,100 @@
          "answer": "– Přesném metodickém a metodologickém postupu\n– Objektivním a teoretickém podkladu"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "Jaké otázky musí být na začátku výkumu zodpovězeny?",
+         "answer": "Co, Kdy, Kde, Proč, Jak"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "Otázka Co?",
+         "answer": "Formulace předmětu nebo tématu výzkumu, včetně a zejména cíle\nFormulace vědecké hypotézy výzkumu"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "Otázka Kdy",
+         "answer": "V jakém časovém období bude probíhat výzkum, protože výsledky můžou záviset na čase"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "Otázka Kde",
+         "answer": "Určení místa provedení výzkumu a jak velkého celku se týká"
+      },
+      {
+         "question": "Otázka Proč?",
+         "answer": "– Účel výzkumu (vývoj teorie nebo prace v daném vědním oboru)\n– Účel se nemusí shodovat s předmětem výzkumu"
+      },
+      {
+         "question": "Otázka Jak?",
+         "answer": "Metodika a technické stránky výzkumu"
+      },
+      {
+         "question": "Nutný vstup do výzkumu je:",
+         "answer": "Informace, které už se ví\nZnalosti získané z odborné literatury"
+      },
+      {
+         "question": "Základní paradigmata empirického výzkumu",
+         "answer": "Kvalitativní a kvantitativní výzkum"
+      },
+      {
+         "question": "Kvalitativní výzkum – oblast",
+         "answer": "sociální vědy"
+      },
+      {
+         "question": "Kvalitativní výzkum – cíl: vytvoření nových",
+         "answer": "nových hypotéz\nnového porozumění\nnové teorie"
+      },
+      {
+         "question": "Kvalitativní výzkum – Induktivní, nebo Deduktivní přístup?",
+         "answer": "Induktivní přístup = pozorování jednotlivých jevů, na jehož základě jsou hledány pravidelnosti -> z nich jsou obecné závěry a hypotézy\nZkoumáme obdélníky a snažíme se přijít na obecný vzoreček jejich obsahu, který platí pro všechny"
+      },
+      {
+         "question": "Kvalitativní výzkum – statistické metody a kvantifikace",
+         "answer": "statistické metody a kvantifikace není použita, hledá se podstata pomocí otevřených otázek a hloubkových rozhovorů"
+      },
+      {
+         "question": "Kvalitativní výzkum – Reliabilita a Validita",
+         "answer": "Otevřené otázky a individuální přístup k respondentům naznačuje, že by měla být vysoká validita\nIndividuální přístup ale znamená malou standardizovanost, je tedy možné, že testy budou mít malou reliabilitu (kdyby se otázky položily trochu jinak – což se stane v hloubkovémm rozhovoru – mohli bychom dostat jiné odpovědi)"
+      },
+      {
+         "question": "Reliabilita a validita obecně",
+         "answer": "Reliabilita = správnost testu, jestli se odhalí pravda (kdyby se test opakoval, byly by vždy stejné výsledky?)\nValidita = měříme testem opravdu vlastnosti, které chceme, nebo ne? (Hledáme nejchytřejšího člověka tím, že měříme IQ, dostaneme tím ale opravdu nejchytřejšího člověka?)"
+      },
+      {
+         "question": "Kvantitativní výzkum – oblast",
+         "answer": "Přírodní vědy – jde měřit přesně a číselně"
+      },
+      {
+         "question": "Kvantitativní výzkum – cíl",
+         "answer": "Potvrdit nebo vyvrátit hypotézy (souvisí s deduktivním přístupem)"
+      },
+      {
+         "question": "Kvantitativní výzkum – podoba zkoumaných dat",
+         "answer": "Nemusí být pouze kvantitativní, kvalitativní na ně jdou převést, např. vytvořením intervalů\n(Ve finále ale potřebujeme nějaká kvantitativní data)"
+      },
+      {
+         "question": "Kvantitativní výzkum – druhy zkoumaných dat",
+         "answer": "1) Binární ... Ano/Ne\n2) Nominální\n3) Ordinální\n4) Kardinální\n5) Intervalová\n6) Poměrová"
+      },
+      {
+         "question": "Nominální (kategorická) data",
+         "answer": "Máme výčet možných hodnot, ty ale nejde porovnávat, ani říct o kolik nebo kolikrát je co větší nebo menší\nJde dělat jen modus a =, tedy jestli se hodnoty rovnají\nNapříklad barvy"
+      },
+      {
+         "question": "Ordinální data",
+         "answer": "Výčet možných hodnot, které jde porovnávat, ale nemůžeme říct o kolik\nMůžeme počítat rovnost, nerovnost, medián a modus\nNapř. ZŠ < SŠ < VŠ (sš je víc než vš, ale je ten rozdíl stejný jako mezi sš a vš?"
+      },
+      {
+         "question": "Kardinální data",
+         "answer": "Výčet možných hodnot, které jde porovnávat a určit, o kolik jednotek je která hodnota více, než jiná\nMůžeme počítat modus, medián, + a -\nPříklad je třeba počet dětí v rodině"
+      },
+      {
+         "question": "Intervalová data",
+         "answer": "Spojitá proměnná, které jde porovnávat a určit rozdíl\njde počítat to, co doteď, jen je to prostě spojité\nteplota, čas"
+      },
+      {
+         "question": "Poměrová data",
+         "answer": "Spojitá intervalová data, která jde porovnávat, určovat rozdíl a navíc i poměr (to u IQ, teploty nebo času nejde)\nNapř. vzdálenost"
+      },
+      {
+         "question": "Kvantitativní výzkum – Induktivní nebo Deduktivní metoda",
+         "answer": "Deduktivní metoda = jsou obecná pravidla a zákony, ze kterých jsou vytvořeny hypotézy. Ty se zde potvrzují, nebo vyvracejí"
       },
       {
          "question": "",
