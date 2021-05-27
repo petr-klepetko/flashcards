@@ -227,5 +227,5 @@ function handleTouchMove(evt) {
     yDown = null;
 };
 
-console.log('ahoj');
+// console.log('ahoj');
 initialize();
