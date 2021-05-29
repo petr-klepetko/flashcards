@@ -86,44 +86,44 @@
          "answer": "Specializace = nová třída je konkrétní podtyp předka, předkovy vlastnosti jsou stejné, ale přidají se další\nPolymorfismus = překrývání metod (potomek má jinou implementaci stejně pojmenované metody) a přetěžování metod (potomek má více metod stejného názvu, ty mají různý počet a typ parametrů a automaticky se vybere vhodná)\nZnovupoužití kódu = znovu použití některého kódu z předka a rozšíření. Pokud se děje jen toto, vznikne třída, která nejde přetypovat na předka (to jinak musí jít)"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "8 – Vzory při vývoji systému – Na co obecně jsou, Základní skupiny",
+         "answer": "Standardní ověřené řešení často se opakujících problémů\nNávrhové = Řešení často se opakujících problémů\nArchitektonické = architektonické problémy – návrh celkové struktury kódu\nAnalytické, vzory kódu, vzory pro UI"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "8 – Vzory při vývoji systému – Návrhové vzory: Co to je, proč se používají, jak se znázorňují, katalogy",
+         "answer": "Doporučené postupy pro řešení často se opakujících úloh\nUsnadňují práci, dodržují zásady správného programování\nGoF – gang of five, skupina popisuje 23 základních návrhových vzorů, Pecinovský\nKreslí se do UML diagramů"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "8 – Vzory při vývoji systému – vzory podle Pecinovského",
+         "answer": "Jednoduchá tovární metoda - metoda, která umí vracet instanci daného různých tříd (vytvoří nebo najde existující)\nPřepravka – pokud meotda vrací více hodnot najednou, je možné je vrátit pomocí instance třídy 'přepravka', která ty vracené hodnoty má jako atributy\nKnihovní třída – třída jako úložiště často používaných metod"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "8 – Vzory při vývoji systému – Členění podle GoF",
+         "answer": "Strukturální – uspořádání tříd a komponent\nPro vytváření objektů\nPro chování v systému"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "8 – Vzory při vývoji systému – Strukturální vzory",
+         "answer": "Adaptér = třída, která slouží jako prostřeedník mezi třídou s rozhraním a s implementací, aby se to správně mapovalo\nBridge = Prostředník mezi abstrakcí (např. UI) a implementací (např. aplikační logikou). aby byly ty dvě nezávislé\nComposite = přístup k hierarchickým strukturám, např. stromové\nDecorator = třída, která přidá k jiné třídě funkcionalitu, aniž bychom tu původní měnili (přidáme nový interface, přičemž implementace je buď třída nebo dekorátor (ty nové věci budou tam)\nFacade = třída, která slouží jako jednodušší nebo sjednocené rozhraní pro více tříd (zase přemapovává požadavky)\nFlyweight = pokud je hodně malých objektů stejného typu, tak se vytvoří jedna třída, která obsahuje společné vytknuté vlastnosti a potom zvlášť informace o specifikacích všech konkrétních instancí\nProxy = odstiňuj objekt od uživatelů, sám k objektu přistupuje"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "8 – Vzory při vývoji systému – Vzory pro vytváření objektů",
+         "answer": "Factory method = vytváří instanci některé z připravených tříd až za běhu programu\nAbstraktní továrna = vytváří více objektů, které spolu souvisí (a jsou podobné)\nSingleton = dovoluje vytvořit jen jednu instanci, ta se získá přes getInstance(), ta buď vytvoří novou, nebo pokud už je, tak vrátí tu vytvořenou"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "8 – Vzory při vývoji systému – Vzory chování",
+         "answer": "Mediator = prostředník – objekt, co zajišťuje komunikaci objektů, Observer = dvojice subjekt (pozorovaný) a observer (pozorovatel), pro situaci, kdy je při změně objektů potřeba informovat ostatní"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "8 – Vzory při vývoji systému – Architektonické vzory – vrstvy",
+         "answer": "Vrstvy = Agregátová vrstva (agregovaná funkce z elementárních - excelová tabulka připravená pro určitý účel)\nFiltrující vrstva (odstínění nepodstatných funkcionalit); Nepřímá vrstva (zapouzdření všech vrapperl - přístupů k jednotlivým komponentám"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "8 – Vzory při vývoji systému – Tok dat",
+         "answer": "Filter = rozdělení úloh na řadu menších, které jsou nezávislé\nPipe - datové filtery mezi buffery"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "8 – Vzory při vývoji systému – centralizace dat, interakce s uživatelem, Interakce komponent",
+         "answer": "Shared repository = jedna komponenta slouží jako datové úložiště, ke kterému přistupují ostatní komponenty\nInterakce s uživatelem (MVC)\nInterakce komponent = Client server, peer to peer"
       },
       {
          "question": "",
