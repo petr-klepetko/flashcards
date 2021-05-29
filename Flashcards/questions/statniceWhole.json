@@ -70,20 +70,20 @@
          "answer": "60 znaků na řádek, 30 řádků na stránce,\nnormostrana 1800 znaků\npísmo 11-12, řádkování 1,25 - 1,5, patkové písmo"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "7 - Objekty a jejich vlastnosti – Co je objekt, \n– Z čeho se skládá\nJaké údaje sledujeme?\nObecné objektové vlastnosti",
+         "answer": "– Objekt je abstrahovaný model reality, obsahuje pouze vlastnosti, které jsou pro daný case užitečné\nSkládá se z vlastností (datových atributů) a akcí, které může vykonávat (metod)\n– Vlastnosti: Abstrakce, třídy & instance, komunikace objektů, zapouzdření, dědičnost, polymorfismus"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "7 - Objekty a jejich vlastnosti – Abstrakce; třída vs instance; volání metod; zapouzdření",
+         "answer": "Abstrakce = vytvoření modelu pouze s vlastnostmi, které jsou pro daný případ podstatné\nTřída = obecná šablona daného 'typu objektů', když ji naplníme daty, aby představovala konkrétní případ dané třídy, je to instances\nVolání metod = objekty můžou navzájem volat metody ostatních obejktů, tím se spojují\nZapouzdření = související metody a data jsou spolu ve třídách"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "7 - Objekty a jejich vlastnosti – Dědičnost",
+         "answer": "Třída do sebe absorbuje atributy a metody z předka\nMůže být víceúrovňová - z potomka může dědit někdo další, ale v javě jde dědit jen z jednoho předka\nV javě je hlavní třída Object, kterou všechny ostatní dědí"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "7 - Objekty a jejich vlastnosti – Proč se dědí?",
+         "answer": "Specializace = nová třída je konkrétní podtyp předka, předkovy vlastnosti jsou stejné, ale přidají se další\nPolymorfismus = překrývání metod (potomek má jinou implementaci stejně pojmenované metody) a přetěžování metod (potomek má více metod stejného názvu, ty mají různý počet a typ parametrů a automaticky se vybere vhodná)\nZnovupoužití kódu = znovu použití některého kódu z předka a rozšíření. Pokud se děje jen toto, vznikne třída, která nejde přetypovat na předka (to jinak musí jít)"
       },
       {
          "question": "",
