@@ -126,16 +126,288 @@
          "answer": "Shared repository = jedna komponenta slouží jako datové úložiště, ke kterému přistupují ostatní komponenty\nInterakce s uživatelem (MVC)\nInterakce komponent = Client server, peer to peer"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "9 – Agilní metodiky – Popis agilních metodik",
+         "answer": "– Neustálé přizpůsobování měnícím se požadavkům\n– Co nejrychleji vyvinout alespoň část systému a rovnou to dát otestovat a aplikovat zpětnou vazbu\n– Pro menší týmy"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "9 – Agilní metodiky – Principy agilních metodik",
+         "answer": "– Včasná kontinuální dodávka SW s hodnotou pro zákazníka\n– změna požadavků i v průběhu vývoje (podle zpětné vazby)\n– komunikace uživatelů a vývojářů\n– Komunikace a individualita\n– Důvěra – individuální týmy s vlastní organizací, perfektní řešení i návrh, důraz na přidanou hodnotu pro zákazníka\n– Iterativní vývoj\n– Odpovědnost za požadavky je na zákazníkovi"
       },
       {
-         "question": "",
-         "answer": ""
+         "question": "9 – Agilní metodiky – DSDM",
+         "answer": "Dynamic systems development method\n– Dobrá dokumentace a kvalita řešení\n– Důraz na sw inženýrskou oblast, ne na oblast řízení\n– vývoj nového řešení\n– využívá se prototypování\n– klasické principy agilních metodik"
+      },
+      {
+         "question": "9 – Agilní metodiky – DSDM fáze",
+         "answer": "1) Funkční model – sběr a prototypování funkčních požadavků\n2) Návrh – zpodrobnění prototypů, aby splňovaly funkční i podpůrné požadavky, návrh řešení\n3) Implementace – realizace navrženého řešení, zhodnocení projektu, školení atd"
+      },
+      {
+         "question": "9 – Agilní metodiky – ASD",
+         "answer": "Adaptive Software Development\nCyklus Speculate -> Collaborate -> Learn a dokolečka\nKontinuální učení a vylepšování toho, co máme"
+      },
+      {
+         "question": "9 - Agilní metodiky – Lean",
+         "answer": "– Řeší spíš řízení projektů než SW inženýrství\n– Pull princip – dělat věci, až když jsou potřeba, nenaskladňovat a potenciálně pracovat zbytečně\n– Neustálá zpětná vazba\n– Samostatné týmy, každý se svým úkolem\n– Eliminace odpadu a zbytečných věcí"
+      },
+      {
+         "question": "9 - Agilní metodiky – Feature driven development",
+         "answer": "1) Vytvoření celkového modelu\n2) Ve dvoutýdenních iteracích se vytvářejí postupně všechny features, které jsou užitečné pro zákazníka\n– Celkový model -> seznam featur -> plán pro featuru -> návrh featury -> realizace featury"
+      },
+      {
+         "question": "9 - Agilní metodiky – Scrum",
+         "answer": "Důraz na oblast řízení projektů\nVývoj probíhá ve sprintech, což je období pro vývoj určitých featur\nPrůběh sprintu: Sprint planning meeting (jen na začátku sprintu), scrum meeting (každý den, heads up meeting), Sprint review meeting (zhodnocení na konci sprintu)\nRole: Scrum master (odpovědný za proces scrumu), Product owner (spravuje seznam požadavků, Tým (mimoni, co dřou)"
+      },
+      {
+         "question": "9 - Agilní metodiky – XP",
+         "answer": "Extreme programming, pro malé týmy, nejasné nebo měnící se zadání\nCo nejjednodušší návrh a neustálé testování – minimalizace chyb\nPárové programování\nRefaktorizace (změny v kódu, které nemění funkcionalitu, ale vylepšují chod)"
+      },
+      {
+         "question": "10 – Testování softwaru",
+         "answer": "Provádění funkcí programu a porovnávání výsledků s požadovaným stavem\n50% času projektu, spolu s úpravami a laděním, nikdy se nenajde vše, čím víc se toho najde, tím víc tam toho je\nVždy co nejdříve"
+      },
+      {
+         "question": "10 – Testování softwaru - průběh",
+         "answer": "1) Příprava na testování\n2) Provedení testů \n3) Vyhodnocení testů\n 4) Rozhodnutí o dalším postupu"
+      },
+      {
+         "question": "10 – Testování softwaru – Dělení podle úrovně testu",
+         "answer": "– Unit testy – testování nejmenšíh částí programu, dělají vývojáři\n– Integrační testování – test propojení komponent k sobě\n– Smoke test – test buildu programu\n– Funkční test – otestování funkčnosti všech potřebných funkcionalit\n– Akceptační testování – testování klientem na jeho testovacích datech"
+      },
+      {
+         "question": "10 – Testování softwaru – Dělení podle cíle testu (co testujeme)",
+         "answer": "– Funcionalita – Jestli program splňuje funkční požadavky\n– Usability – Jak se program používá, UI, nápověda, UX\n– Reliability – přesnost, chybovost, možnosti obnovení\n– Performance – Jestli ustojí hodně požadavků, časová odezva, dostupnost\n– Supportability – test podpory – kofigurovatelnost, internacionalizace, adaptabilita"
+      },
+      {
+         "question": "10 – Testování softwaru – Dělení podle způsobu provedení",
+         "answer": "Manuální, Automatické"
+      },
+      {
+         "question": "10 – Testování softwaru – Dělení podle nutnosti spouštět program",
+         "answer": "Statické (bez spuštění programu, např. kontrola kódu)\nDynamické – při běhu programu, funční požadavky se kontrolují"
+      },
+      {
+         "question": "10 – Testování softwaru – Funkční a nefunkční testy, testy spojené se změnami",
+         "answer": "Funkční testy = založené na funkcích, vlastnostech a možnostech interakce programu s jinými systémy\nNefunkční testy = není specifická funkce, ale spíš jak program běží, jestli je stabilní, jestli se neseká při zátěži\nTesty spojené se změnami – test nových funkcí po změnách, ale i starých, jestli se nepokazily"
+      },
+      {
+         "question": "10 – Testování softwaru – Dělení testů podle znalosti kódu",
+         "answer": "Black box testing – bez znalosti a zásahů do kódu\nWhite box testing – znalost i přístup do zdrojového kódu, využívání znalostí\nGrey Box testing – tester má přístup ke kódu, ale nepotřebuje k němu přistupovat"
+      },
+      {
+         "question": "10 – Testování softwaru – Regresní testování",
+         "answer": "Po změně – test nových funcí a i starých, jestli se neobjevila chyba"
+      },
+      {
+         "question": "10 – Testování softwaru – Závislé a nezávislé testování",
+         "answer": "Závislé – provádí někdo, kdo není primárně tester, například vývojář\nNezávislé – Je to pouze tester, na tvorbě programu se nepodílel"
+      },
+      {
+         "question": "10 – Testování softwaru – TDD",
+         "answer": "Test driven development\nNejrpve se vytvoří sada testů, které musí program splnit, potom se vyvíjí tak, aby to ty testy splnilo"
+      },
+      {
+         "question": "10 – Testování softwaru – JUNIT",
+         "answer": "Java framework pro testování\nTest case = třída pro testování, konkrétní se z ní dědí\nUvnitř testovací metody jsou potvrzovací metody, které kontrolují, že se děje, co má (assertEquals(), assertTrue, assertNull, fail)"
+      },
+      {
+         "question": "10 – Testování softwaru – JUNIT Test case",
+         "answer": "setUp() – metoda, která vytváří přípravek - soubor objektů potřebných pro běh hry\ntestTestName() – metoda, která provede testovanou operaci a zkontroluje, že je vše ok\ntearDown() – uvolnění zdrojů po testu"
+      },
+      {
+         "question": "11 – Webové služby – Co to je",
+         "answer": "Aplikace přístupná přes webové rozhraní pomocí SOAP (Simple object access protocol) v xml požadavku, na který bude xml odpověď\nkvůli společnému protokolu jsou platformově nezávislé"
+      },
+      {
+         "question": "11 – Webové služby – Definice",
+         "answer": "Aplikace, která poskytuje funkce uživatelům pomocí standardního webového protokolu (HTTP, ale i SMTP, FTP) a SOAP formátu (XML)"
+      },
+      {
+         "question": "11 – Webové služby – SOAP protokol",
+         "answer": "Protokol pro posílání xml zpráv mezi dvěma aplikacemi (peer to peer), vždy požadavek a odpověď\nObvykle to bývá komunikace serveru a webové služby, kde server dostane data a ta pošle na klienta"
+      },
+      {
+         "question": "11 – Webové služby – Jazyk WSDL",
+         "answer": "Web service description language – popis webových služeb jako množiny koncových bodů zpracovávajících zprávy\n– Název služby\nmechanismus komunikace, který služba předpokládá"
+      },
+      {
+         "question": "11 – Webové služby – UDDI",
+         "answer": "Universal description discovery integration – Standard pro publikování informací o webových službách, sám o sobě je to taky webová služba"
+      },
+      {
+         "question": "11 – Webové služby – SOA",
+         "answer": "Architektura orientovaná na služby\nAplikace se má vnímat jako množina služeb, které jsou poskytnuty klientovi\n1) byznys procesy řídí služby a služby řídí technologie (služby jsou 'abstraktní' vrstva mezi aplikací a podnikovými procesy)\n2) Agilita = schopnost rychle odpovídat na změny požadavků byznysu\n3) SOA governance – SOA se mění"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Obecně metodika",
+         "answer": "Soubor metod, postupů a doporučení pro realizaci určitého úkonu\nMetodiky budování IS = metodiky, které zachycují postup od návrhu, vývoje, nasazení a integrací"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Proč jsou metodiky dobré",
+         "answer": "– IS je přínos pro uživatele (pomáhá tomu)\n– Umožňuje (nutí) provedení všech potřebných činností pro nasazení IS\n– Dobrá dokumentace\n– Optimalizace zdrojů při tvorbě IS"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Základní požadavky efektivnosti metodik",
+         "answer": "1) Musí mít deklarované hodnoty, na kterých je založena\n2) Jasně určit postup řešení pro plánování\n3) Určeny priority řešení\n4) Musí doporučovat soubor metod, technik a nástrojů"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – zaměření metodiky",
+         "answer": "Globální = vyvíjí se celopodnikový systém\nProjektové = vývoj dílčí oblastí (výroba, finance...) – většina metodik"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Fáze životního cyklu IS",
+         "answer": "1) Globální strategie\n2) Informační strategie\n3) Úvodní studie\n4) Globální analýza a návrh\n 5) Implementace\n 6) Nasazení (školení, začátek provozu)\n7) Údržba, provoz"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Rigorózní metodiky",
+         "answer": "Procesy pro vývoj se definují na začátku, podle požadavků klienta, které jsou neměnné\nKvalitní procesy = kvalitní produkt, takže je důraz na procesy\nVodopádový model – všechno se navrhne, naprogramuje, otestuje a zavede, nejsou tam iterace a nevrací se to\nZaloženo na nedůvěře, neustálá kontrola"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – OPEN",
+         "answer": "– Metodika pro vývoj celého informačního systému\nPředstavuje obecný rámec OPF (open process framework), do kterého si jde dosadit činnosti (co se musí udělat), rozdělené na úlohy (jednotlivé úkoly pro jednotlivce nebo týmy) pomocí technik (způsobů, jak pracovat)\nHlavní jsou tedy činnosti, úlohy a techniky\nKaždá doménová oblast nebo projekt si ho může přizpůsobit"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – RUP",
+         "answer": "Rational unified process = metodika založená na obecných best practices programování\nIterativní vývoj\nřízení požadavků\nŽivotní cyklus je rozdělen na cykly, na konci každého je hotový produkt\nCyklus se skládá ze 4 fází"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – RUP: 4 fáze",
+         "answer": "Počáteční fáze = Definice cílů projektu, naplánování harmonogramu, odhad nákladů a definice rizik\nElaborační fáze = Návrh architektury systému a prototypu\nKontrukční fáze = Vývoj systému včetně testů\nFáze nasazení = Předání projektu, testování, dokumentace"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Model zralosti (úrovně)",
+         "answer": "1) Počáteční úroveň – nejsou definované procesy, dějí se ad hoc\n2) Opakovatelnost = procesy nejsou přesně definované, ale používají se opakující se vzorce práce\n3) Definované procesy = Procesy jsou definované v dokumentaci, lze se podle nich řídit\n4) Řízené procesy = Procesy jsou definované, spolu s metrikami, kterými budou měřeny, je tedy možné měřit efektivitu\n5) Optimalizované = U procesů jsou definované způsoby, jak neustále zlepšovat efektivitu"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – ITIL",
+         "answer": "Soubor best practices pro řízení IT služeb\nSoupis věcí, které jsou potřeba udělat, ale ne jak"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – COBIT",
+         "answer": "Komplexní systém cílů a metrik pro provoz IS\nStrukturovaný, rámec pro IT Governance\nPostupy měření výkonu IT\nPIS je rozdělen do domén, které jsou měřeny podle určitých kritérií"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – COBIT – Domény",
+         "answer": "Plánování\nImplementace\nProvoz\nMonitorování"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Kritéria",
+         "answer": "Efektivnost\nVýkonnost\nDůvěra\nIntegrita\nDostupnost\nSoulad\nSpolehlivost"
+      },
+      {
+         "question": "Modelování při analýze a návrhu IS/ICT – Modelování",
+         "answer": "Popis abstrahované části reality, zobrazujeme jen podstatné informace pro pohled, který hledáme"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Proč modelovat",
+         "answer": "– Lepší pochopení systému\n– Komunikace\n– Hledání slabých míst v procesu\nTestování změn\nPochopení problému"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Důležité faktory při modelování",
+         "answer": "– Oddělit podstatné od nepodstatných\n– Dodržet jednotnou notaci (např. UML)\n– Dostatečné seznámení s problematikou\nDát pozor na to, že modelování je zatíženo pohledem, při kterém ho děláme"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Co je proces, procesní modelování",
+         "answer": "PROCES je soubor ČINNOSTÍ, které jsou spouštěny UDÁLOSTÍ a ústí ve STAV\nProcesní modelování je vytváření grafického znázornění průběhu procesu\nDělá se to kvůli optimalizacím procesů, analýz, dokumentace pracovních postupů, hledání bottle necků"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Objektové modelování",
+         "answer": "Cíl = zachytit obraz REALITY, tu si představujeme jako systém (množina prvků a vazeb mezi nimi) objektů. Ty odabstrahujeme od nepodstatných vlastností a čisté objekty zaneseme do diagramů"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Komponenty objektového modelování",
+         "answer": "Objekt = jedna konkrétní věc (instance třídy)\nTřída = skupina objektů, která má stejné vlastnosti a činnosti\nAtribut = konkrétní vlastnost třídy\nAsociace = vztahy mezi objekty\nOperace = činnost, které objekty mohou vykonávat"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Datové modelování",
+         "answer": "Vytváření databáze\nPrvní část = Analýza informací o skutečnosti, konceptuální schéma, datový model\nDruhá část = převod do databázových struktur - vytvoření fyzického modelu\nEntita = identifikovatelný objekt reality"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Druhy entit",
+         "answer": "Obecná\nSilná = může existovat bez jakékoliv jiné entity\nSlabá = popisná, nemůže existovat bez té, na kterou se odvolává\nVazební = vazba mezi jinými entitami (asi m:n)\nGeneralizace a specializace"
+      },
+      {
+         "question": "12 – Metodiky vývoje a provozu IS / ICT – Notace",
+         "answer": "Způsob zobrazení modelu\nUML, BPMN"
+      },
+      {
+         "question": "14 – UML – Co to je, 3 skupiny diagramů",
+         "answer": "Unified Modelling Language – Grafický jazyk pro vizualizaci, návrh a dokumentaci programových systémů.\n1) Statická struktura aplikace\n2) Dynamické chování aplikace\n3) Organizace a správa informačních modulů"
+      },
+      {
+         "question": "14 – UML – Diagram tříd",
+         "answer": "– Statické vyjádření struktury objektů a jejich vazeb\n– zachycuje pravidla programového systému, je možné ho použít na forward i reverse engineering\nPodle detailu implementační realizace máme Konceptuální, Logický a Fyzický"
+      },
+      {
+         "question": "14 – UML – Diagram tříd – Konceptuální model",
+         "answer": "– Analýza požadavků na software, objekty jsou popsány pomocí základních vlastností a vztahů, nemusí tu být metody a atributy, pomocí kterých to bude řešené"
+      },
+      {
+         "question": "14 – UML – Diagram tříd – Designový model",
+         "answer": "– Model obsahuje všechny metody a atributy včetně datových typů a viditelnosti\n– Obsahuje třídy uživatelského rozhraní\n– Obsahuje třídy systémových událostí –controll classes"
+      },
+      {
+         "question": "14 – UML – Diagram tříd – Implementační model",
+         "answer": "– Grafické znázornění IMPLEMENTOVANÉHO kódu\n– Třídy = objekty s atributy a metodami\n– Asociace = Vztahy mezi třídami\n– Rozhraní = interface\n– Balíčky = složky"
+      },
+      {
+         "question": "14 – UML – Use Case Diagram",
+         "answer": "– Diagram případů užití\n– Nejprve se musí vymezit hranice systému\n– Potom se určí aktéři = fyzické osoby nebo jiné systémy v interakci s popisovaným systémem\n– Potom se určí případy užití = posloupnost kroků popisujících interakci uživatelů se systémem pro dosažení cíle = nějaké featury systému"
+      },
+      {
+         "question": "14 – UML – Use Case Diagram – vztahy mezi případy užití",
+         "answer": "1 – Include = pokud use case zahrnuje jiný use case v rámci sebe\n2 – Extend = rozšíření use case o věc navíc, pokud je splněna určítá podmínka\n3 – Generalizace, Specializace = dědění vlastností mezi aktéry, pokud jeden z nich je zástupce druhého, ale s věcmi navíc"
+      },
+      {
+         "question": "14 – UML – Sekvenční diagram",
+         "answer": "Používá se uživatel a objekty, mezi kterými komunikuje, např. ATM a banka\nObjekty a uživatel jsou na prvním řádku a od nich vede dolů jejich 'lifeline' čára, která znázorňuje běh času\nInterakce mezi objekty je znázorněna pomocí šipek s popisky, co se děje (tzv. zprávy)\nZprávy jdou chronologicky shora\nJe tam i větvení, podle určitých podmínek"
+      },
+      {
+         "question": "14 – UML – Stavový diagram",
+         "answer": "Může být ve formě tabulky, ale spíš graficky s šipkami\nprvky jsou stavy, mezi kterými objekt nebo systém přechází, vztahy / šipky jsou akce, které se musí stát, aby se stav změnil ve směru šipky"
+      },
+      {
+         "question": "14 – UML – Diagram komponent",
+         "answer": "Diagram komponent, jejich vztahů mezi sebou a jejich závislostí na určitých vstupech\nKopomenta = v tomhle smyslu nějaký modul v programu, který má zapouzdřenou funkcionalitu a jde vyměnit za jiný. Je to složitější struktura než jen třída, obvykle je to více tříd s vlastními atributy a metodami. Přidávají se sem i Interface ve smyslu programování"
+      },
+      {
+         "question": "14 – UML – Diagram Aktivit",
+         "answer": "Znázornění procesu nebo pracovního postupu, je to sled akcí, který obsahuje začátek, konec, merge (větvení), časová pauza"
+      },
+      {
+         "question": "15 – SCM, Konfigurace – Co je SCM",
+         "answer": "Software configuration management, řízení vývoje softwarových systémů, sůedpvání a řízení ZMĚN"
+      },
+      {
+         "question": "15 – SCM, Konfigurace – Základní aspekty SCM",
+         "answer": "Identifikace a dokumentace funkčních a fyzických charakteristik prvků systému, řízení změn, řízení verzí"
+      },
+      {
+         "question": "15 – SCM, Konfigurace – Cíle konfiguračního řízení",
+         "answer": "Určení a správa konfigurací = identifikace prvků systému a přiřazení odpovědnosti, identifikace verzí, kontrolované releasy produktu, změny produktu\nSestavení a koordinace prací = určování postupů a nástrojů, kontrola správnosti produktu a spolupráce vývojářů\nZjišťování stavu systému"
+      },
+      {
+         "question": "15 – SCM, Konfigurace – Komponenty SCM",
+         "answer": "– Správa verzí\n– Řízení sestavení (buildů)\n– Distribuce aplikace\n– Správa rozhraní\n– Řízení subdodavatelů"
+      },
+      {
+         "question": "15 – SCM, Konfigurace – Integrace = Co je to sestavení, 2 základní druhy",
+         "answer": "Činnosti spojené se sestavením modulu nebo celé aplikace z menších částí – jednotek\nJe snaha, aby to bylo automatické a systematické\nFázové X Přírůstkové"
+      },
+      {
+         "question": "15 – SCM, Konfigurace – Postupné fázové sestavení",
+         "answer": "1) Nejprve jsou vyvinuty a laděny všechny jednotlivé třídy zvlášť (unit development)\n2) Potom dojde k Buildu celého systému, vše se propojí (systémová integrace)\n3) Ladění celého systému najednou (systémová DEZINTEGRACE)"
+      },
+      {
+         "question": "15 – SCM, Konfigurace – Přírůstkové sestavení",
+         "answer": "1) Vytvoření malé funkční části systému, která je otestována, načež je vytvořena 'kostra' celého systému\n2) Vytvoření a otestování další třídy\n 3) Integrování nové třídy do již hotové kostry\n– Výhody = rychlejší odhalení chyb, lze dodávat po částech, lepší sledování postupu"
+      },
+      {
+         "question": "15 – SCM, Konfigurace – Problémy při distribuci",
+         "answer": "Navázání na aktuálně běžící aplikace (narušení závislých komponentů, narušení již běžících aplikací)\nBezpečnost – soukromí, autorizace, kontrola integrity"
+      },
+      {
+         "question": "15 – SCM, Konfigurace – Činnosti SD",
+         "answer": "Uvolnění – release = zabalení apliakce a příprava k distribuci zákazníkům (1 – balení aplikace, 2 – informování zákazníků o vlastnostech a požadavcích aplikace)\nInstalace = nahrání k zákazníkovi (náročné) – 1) Distribuce aplikace na počítač klienta. 2) Konfigurace aplikace pro klienta\nAktivace = činnost pro spuštění aplikace na počítači\nDeaktivace = ukončení aplikace\nAktualizace = instalace nové verze\nPřizpůsobení = úprava na místní podmínky nebo jejich změny\nOdinstalování = odstranění z počítače, vyřešení závislostí (co nechat a co zrušit)\nVyřazení = konec vývoje aplikace, souvisí s informováním zákazníka"
       },
       {
          "question": "",
