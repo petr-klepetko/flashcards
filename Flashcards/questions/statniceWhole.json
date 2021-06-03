@@ -410,6 +410,283 @@
          "answer": "Uvolnění – release = zabalení apliakce a příprava k distribuci zákazníkům (1 – balení aplikace, 2 – informování zákazníků o vlastnostech a požadavcích aplikace)\nInstalace = nahrání k zákazníkovi (náročné) – 1) Distribuce aplikace na počítač klienta. 2) Konfigurace aplikace pro klienta\nAktivace = činnost pro spuštění aplikace na počítači\nDeaktivace = ukončení aplikace\nAktualizace = instalace nové verze\nPřizpůsobení = úprava na místní podmínky nebo jejich změny\nOdinstalování = odstranění z počítače, vyřešení závislostí (co nechat a co zrušit)\nVyřazení = konec vývoje aplikace, souvisí s informováním zákazníka"
       },
       {
+         "question": "16 – Multidimenzionalita – Princip, postup",
+         "answer": "Na každý problém je potřeba se dívat přes více dimenzí, které mají na sebe vazby\n1) Identifikovat všechny dimenze\n2) Najít řešení pro každou dimenzi zvlášť\n3) Integrovat všechna jednotlivá řešení do jednoho, které bude optimalizované a řešit všechny dimenze"
+      },
+      {
+         "question": "16 – Multidimenzionalita – 3 pohledy",
+         "answer": "1) Uživatelský (co je produkt, pro koho je), Řešitelský (jak se to vytvoří, jak se bude dodávat)\n2) Podle úrovně integrace, abstrakce a časové dimenze řešení\n3) Dimenze rozdělené na konkrétní skupiny"
+      }
+      ,
+      {
+         "question": "16 – Multidimenzionalita – fáze",
+         "answer": "– Globální podniková strategie\n– Globální informační strategie\n– Úvodní studie\n– Globální analýza a návrh\n– Detailní analýza a návrh\n– Implementace\n– Zavádění systému\n– Provoz a údržba\n– Vyřazení systému"
+      }
+      ,
+      {
+         "question": "17 – Fáze životního cyklu IS – Dva základní přístupy řešení IS",
+         "answer": "– Na zakázku\n– Typový software"
+      },
+      {
+         "question": "17 – Fáze životního cyklu IS – Životní cyklus, jednotlivé fáze",
+         "answer": "Posloupnost / cyklus fází, kterými IS prochází od začátku do konce své existence\n1) Plánování a příprava\n2) Analýza a návrh aplikace\n3) Implementace aplikace\n4) Nasazení aplikace\n5) Provoz aplikace\n6) Rozvoj aplikace a optimalizace "
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      }
+      ,
+      {
+         "question": "",
+         "answer": ""
+      }
+      ,
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      }
+      ,
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      }
+      ,
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      }
+      ,
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      }
+      ,
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      }
+      ,
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      }
+      ,
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      }
+      ,
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      }
+      ,
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      }
+      ,
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
+         "question": "",
+         "answer": ""
+      },
+      {
          "question": "",
          "answer": ""
       },
